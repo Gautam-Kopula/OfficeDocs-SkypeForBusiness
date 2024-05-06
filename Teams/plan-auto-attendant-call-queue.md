@@ -87,6 +87,10 @@ Agents who receive calls from a Call queue must be Enterprise Voice enabled onli
 - An [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses transfer mode.
 - An [Audio Conferencing license](set-up-audio-conferencing-in-teams.md) or [online voice routing policy](manage-voice-routing-policies.md) assigned if the Call queue uses conference mode.
 
+> [!NOTE]
+> If you want to use call queues only for internal callers, make sure the agents have Teams Phone licenses and Enterprise voice enabled. Line URI can be left blank, and you can update it later if you decide to add PSTN integration for external calls.
+
+
 If your agents are using the Microsoft Teams app for Call queue calls, they need to be in TeamsOnly mode.
 
 When using a resource account for calling line ID purposes in Call queues, the resource account must have a Teams Phone Resource Account license and one of the following assigned:
